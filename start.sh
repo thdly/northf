@@ -2,7 +2,7 @@
  
 PORT=56854
 UUID=b71c631d-0e51-46ce-99d7-84996faf54f6
-WebPage=https://bing.com
+WebPage=https://warnerbros.com
 CaddyConfig=https://raw.githubusercontent.com/thdly/northf /main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/thdly/northf /main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
